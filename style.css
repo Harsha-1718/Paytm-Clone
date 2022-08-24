@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #f6f6f6;
+}
+
+.container{
+    background-color: #f6f6f6;
+}
+
+/* --------------------->NAVBAR */
+
+.nav-bar{
+    padding:1.3rem 1.3rem 1rem 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.nav-items ul{
+    display:flex;
+    list-style: none;
+    gap:1.5rem;
+    margin-top: 1.3rem;
+    flex-wrap: wrap;
+}
+
+.nav-items ul li{
+    font-weight: 600;
+}
+
+.btn{
+    padding-top: 1rem;
+}
+
+.signin-btn{
+    background-color: #00baf2;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 6rem;
+    color: white;
+    border: none;
+  cursor: pointer;
+  padding:0.5rem;
+}
+
+
+.signin-btn:hover{
+    background-color: black;
+}
+
+
+/* -------------------->context */
+
+.context span{
+    font-weight: bold;
+}
+
+.context{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ /* ----------------download app content -----   */
+
+.download-content{
+    padding: 1.2rem 1.2rem 3rem 1.2rem;
+    position: relative;
+    background-color: white;
+}
+
+.for-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.main-content{
+   display: flex;
+   flex-direction: column;
+}
+
+.p1{
+    display: inline-block;
+   width: 600px;
+   font-size: 3.5rem;
+}
+
+.p2{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 2rem;
+    width: 600px;
+}
+
+.btn2{
+    color: #f6f6f6;
+    background-color: black;
+    border-radius: 2rem;
+    padding:0.8rem;
+    margin-top: 2.3rem;
+    width: 180px;
+}
+
+.btn2:hover{
+    color:black;
+    background-color: #f6f6f6;
+}
+
+ .mobile-image{
+    position: absolute;
+    left: 55%;
+    top: 2%;
+ }
+
+
+ /* <!-- ------------------Recharge and bills --> */
+.bill{
+    background-color: rgb(44, 44, 44);
+    width: 150px;
+    margin:10px;
+    padding:10px;
+    border-radius: 8px;
+}
+
+.bill:hover{
+    background-color: #04c4fe;
+    cursor: pointer;
+}
+
+ .rechargeandbill{
+    padding:0 2rem 1rem 2rem;
+    background-color: #00baf2;
+    display: flex;
+    flex-direction: column;
+    color: #f6f6f6;
+ }
+
+ .headingofrandb p{
+    font-size: 1.9rem;
+    margin-top: 10px;
+    text-align: center;
+ }
+
+ .typesofrecharges{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+ .bill ul{
+    list-style: none;
+ }
+
+ .bill ul li{
+    padding-left: 1rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight:600;
+ }
+
+ /* ---- book and buy */
+
+ .bookandbuy{
+    background-color: rgb(40 39 204);
+    padding:1.9rem;
+ }
+
+ .headingofbandb{
+    color: #f6f6f6;
+    font-size: 1.9rem;
+    padding-top: 1.5rem;
+    text-align: center;
+ }
+
+ .bills{
+    background-color: rgb(44, 44, 44);
+    width: 150px;
+    margin:5px;
+    padding:10px;
+    border-radius: 8px;
+    color: #f6f6f6;
+    font-weight:600;
+ }
+
+.billimg{
+    margin-bottom: 1.4rem;
+}
+
+.bills:hover{
+    cursor: pointer;
+}
+
+/* <!-- ---Payment instructions --> */
+
+.paytminstruc{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.paytminstruc h1{
+    font-weight: 900;
+    text-align: center;
+}
+
+.paytminstruc2{
+    margin:3rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contextinsidePPI{
+    display: flex;
+}
+
+.contextofPPI h2{
+    display: inline-block;
+    width: 500px;
+    font-size: 2.5rem;
+    font-weight:  600;
+    margin-top: 1.5rem;
+}
+
+.contextofPPI p{
+    width: 500px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contextinsidePPI h4{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.upiinstruc{
+    margin-left: 1.6rem;
+}
+
+/* <!-- ----------CARDS --> */
+
+
+.paytminstruc3{
+    margin:3rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.paytminstruc3 p{
+    font-size: 1.2rem;
+}
+
+.cardsleftsection{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.cardsrightsection{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+/* <!-- -----------Financial Services --> */
+
+.finservices{
+    background-color: white;
+    padding: 2rem;
+}
+
+.finservices h1{
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.fincontainers{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.financeleftcontainer{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left: 20px;
+}
+
+.financeleftcontainer h4{
+    display: inline-block;
+    width: 500px;
+    font-size: 2rem;
+}
+
+.financeleftcontainer p{
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    width: 500px;
+}
+
+.financerighttcontainer{
+    margin-left: 80px;
+}
+
+#finservicesbg{
+    background-color: #f6f6f6;
+    padding-top: 4rem;
+}
+
+
+.busisservice{
+    background-color: white;
+    }
+
+    .busisservice h1{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+.busiservicecontainers{
+    margin:3rem;
+    border-radius: 1rem;
+    background-color: rgb(210, 206, 206);
+    padding-left: 3rem;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.busiserviceleftcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.busiserviceleftcontainer h2{
+    width: 400px;
+    font-size: 2rem;
+}
+
+.busiserviceleftcontainer {
+    width: 400px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.busiservicerightcontainer{
+    margin-left: 100px;
+}
+
+
+
+/* <!-- ---------business tools --> */
+
+.businesstoolscards{
+    margin:3rem;
+    border-radius: 1rem;
+    background-color: white;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:60px;
+}
+
+
+.businesscard{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.businesscard h2{
+    width: 200px;
+    font-size: 1.2rem;
+}
+
+.businesscard p{
+    width: 200px;
+    font-size: 0.9rem;
+}
+
+
+.btn3{
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* <!-- ---Paytm Money --> */
+
+.paytmmoney{
+    padding:4rem;
+    background-color: aquamarine;
+}
+
+.paytmmcontainers{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    padding: 3rem;
+    margin-bottom: 120px;
+}
+
+
+.paytmmrightcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paytmmleftcontainer{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+
+.paytmmleftcontainer p{
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+
+.btn4{
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #00baf2;
+}
+
+.paytmmcards{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    color: white;
+    margin:32px 20px 20px 0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.paytmmcards p{
+    display: inline-block;
+    width: 150px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* <!-- ----footer --> */
+
+.footer{
+    padding: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between
+}
+
+.footerleft{
+    display: flex;
+    gap:20px;
+}
+
+.footerleft{
+    font-size: 1rem;
+}
+
+.footerleft img{
+    margin-top: 12px;
+}
+
+.footerright{
+    display:flex;
+    gap:5px;
+}
